@@ -11,6 +11,8 @@ public class Main {
 		
 		p.printStrong();
 		p.printWeak();
+		/**test change*/
+		/*テスト　変更*/
 
 	}
 
