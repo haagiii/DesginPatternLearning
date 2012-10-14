@@ -12,4 +12,7 @@ public class Banner {
 		System.out.println("*" + string + "*");
 	}
 
+
+	/*日本語テスト*/
+
 }
