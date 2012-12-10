@@ -5,18 +5,18 @@ public class TextBuilder extends Builder {
 
 	public void buildTitle(String title) {
 		buffer.append("==========================\n");
-		buffer.append("Åw" + title + "Åx");
+		buffer.append("ÔøΩw" + title + "ÔøΩx");
 		buffer.append("\n");
 	}
 
 	public void buildString(String str) {
-		buffer.append('Å°' + str + "\n");
+		buffer.append('a' + str + "\n");
 		buffer.append("\n");
 	}
 
 	public void buildItems(String[] items) {
 		for (int i = 0; i < items.length; i++) {
-			buffer.append("Å@ÅE" + items[i] + "\n");
+			buffer.append("E" + items[i] + "\n");
 		}
 		buffer.append("\n");
 	}
