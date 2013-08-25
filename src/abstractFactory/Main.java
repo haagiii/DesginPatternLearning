@@ -9,8 +9,8 @@ public class Main{
 	public static void main(String[] args){
 		if(args.length != 1){
 			System.out.println("Usage: java Main class.name.of.ConcreteFactory");
-			System.out.println("Exampole 1: java Main listfctory.ListFactory");
-			System.out.println("Exampole 2: java Main tablefctory.TableFactory");
+			System.out.println("Example 1: java Main listfctory.ListFactory");
+			System.out.println("Example 2: java Main tablefctory.TableFactory");
 			System.exit(0);
 		}
 		Factory factory = Factory.getFactory(args[0]);
